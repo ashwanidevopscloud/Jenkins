@@ -1,23 +1,23 @@
 pipeline {
     agent any 
         stages {
-            stage ("build") {
+            stage("build") {
                 steps {
-                    script {
+                    script{
                         sh "this is build"
                     }
                 }
             }
-              stage ("Test") {
+              stage("Test") {
                 steps {
-                    script {
+                    script{
                         sh "this is test"
                     }
                 }
             }
-              stage ("deploy") {
+              stage("deploy") {
                 steps {
-                    script {
+                    script{
                         sh "this is deploy"
                     }
                 }
