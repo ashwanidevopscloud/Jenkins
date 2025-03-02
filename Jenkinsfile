@@ -19,7 +19,7 @@ pipeline {
             stage("build") {
                 steps {
                    
-                    sh " echo this is build"
+                    sh " echo this is build "
                     
                 }
             }
