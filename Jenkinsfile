@@ -27,6 +27,7 @@ pipeline {
                 steps {
                  
                     sh "echo this is test"
+                    error 'pipeline failed'
                    
                 }
             }
